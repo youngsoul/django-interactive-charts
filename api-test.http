@@ -1,0 +1,11 @@
+###
+POST {{host}}/admin/login/
+Content-Type: application/json
+
+{
+  "username": {{username}},
+  "password": {{password}}
+}
+
+###
+GET {{host}}/shop/chart/filter-options/
